@@ -99,7 +99,7 @@ public class UserController implements Initializable {
             this.selectedUser.update();
             this.selectedUser = null;
         }
-
+       this.deleteBtn.setDisable(true);
        this.fillUsers();
        this.firstnameTxt.setText("");
        this.lastnameTxt.setText("");
